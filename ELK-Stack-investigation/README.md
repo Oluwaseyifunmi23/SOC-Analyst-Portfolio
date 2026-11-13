@@ -11,7 +11,6 @@ The objective was to explore security events, identify suspicious activities, in
 - Understand security logs using ELK Stack.
 - Investigate security events and activities.
 - Analyse timestamps and filter relevant log entries.
-- Investigate suspicious process execution.
 - Examine authentication activities.
 - Create a dashboard for security event visibility.
 
@@ -20,7 +19,6 @@ The objective was to explore security events, identify suspicious activities, in
 - Elastic Stack (ELK)
 - Kibana
 - Security Event Logs
-- Windows Event Data
 
 ## 4. Investigation Activities
 
@@ -29,13 +27,16 @@ During this practical exercise, I performed the following activities:
 ### A. Security Log Analysis
 Explored security event logs and used timestamp filtering to identify relevant activities within specific timeframes.
 
-### B. Process Investigation
-Investigated process execution activities, including examining the parent process associated with sc.exe.
+### B. Time-Based Investigation
+Using the @timestamp field to investigate events within specific date ranges.
 
 ### C. Authentication Analysis
 Explored authentication-related events and investigated available indicators of suspicious login activity.
 
-### D. Dashboard Creation
+### D.  KQL Filtering
+ Applying Kibana Query Language (KQL) to filter and narrow down security events.
+
+### E. Dashboard Creation
 Created an ELK dashboard to improve visibility and provide an organized overview of the security data being investigated.
 
 ## 5. Key Skills Practised
@@ -43,7 +44,6 @@ Created an ELK dashboard to improve visibility and provide an organized overview
 - SIEM Operations
 - Log Analysis
 - Security Event Investigation
-- Process Analysis
 - Authentication Monitoring
 - Dashboard Development
 - Security Monitoring
